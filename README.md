@@ -1,2 +1,2 @@
 # vector_nova
-Knowledge Base Query Project
+Vector Nova: Knowledge Base Query Project
