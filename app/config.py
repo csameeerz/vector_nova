@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     
     SECRET_KEY: str = "your-secret-key-change-in-production"
     ALGORITHM: str = "HS256"
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
     
     VECTOR_DB_URL: str = "http://localhost:6333"  # Qdrant default
     VECTOR_DB_API_KEY: str = ""
